@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Old Web Structure</title>
+  <title>我的個人網頁</title>
   <style>
     #header, #nav, #main, #footer {
       color: white;
     }
     #header, #footer {
-      text-align: center;
-      width: 100%;
+      text-align:center;
+      width: 50%;
     }
     #header {
-      background-color: red;
+      position:relative;
+      top:10px;
+      left:25%;
+      background-color: #0088A8;
       font-size: 36px;
       font-weight: bold;
     }
@@ -25,32 +28,41 @@
     #main {
       width: 86%;
       background-color: gray;
+      text-align: center;
       padding: 20px;
       margin: 20px;
     }
     #footer {
-      background-color: green;
+      width:300px;
+      height:50px;
+      text-align:center;
+      line-height:50px;
+      background-color: #00DD00;
       font-size: 10px;
+      margin:0px auto;
+
     }
   </style>
 </head>
   <body>
-    <div id="header">
-      header
-    </div>
-    <div id="nav">
-      <ul>
-        <li>nav 1</li>
-        <li>nav 2</li>
-      </ul>
-    </div>
-    <div id="main">
-      article
-    </div>
-    <div id="footer">
-      <p>
-        footer © 2016
-      </p>
-    </div>
+    <font face="monospace">
+      <div id="header">
+        標題
+      </div>
+      <div id="nav">
+        <ul>
+          <li>nav 1</li>
+          <li>nav 2</li>
+        </ul>
+      </div>
+      <div id="main">
+          "正在測試中2/8 1:20"
+      </div>
+      <div id="footer">
+        <p>
+          footer © 2018
+        </p>
+      </div>
+    </font>
   </body>
 </html>
