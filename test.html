@@ -11,15 +11,15 @@
 
 
          <style>
-
               [class|="coffee"] {color:red} /*屬性選擇器*/
               .odd {background:lightyellow} /*類別選擇器 odd*/
               .even{background: lightpink} /*類別選擇器even*/
+              div[class|="col"]{background-color: #EBDEF0;border:0.5px solid purple}
         </style>
 
   </head>
 
-  <body>
+  <body style="background-color:#888888">
 
     <ul>
       <li class ="coffee">精選咖啡</li>
@@ -47,7 +47,22 @@
 
     <div class="container">
         <img src= "donut.png"  width=90% class="img-circle"  alt="circle" >
+        <pre>
+            #include < iostream >
+
+            using namespace std;
+            int main(){
+                cout<<"hello world" << endl;
+            }
+        </pre>
+
     </div>
 
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-8">區塊1</div>
+                <div class="col-sm-4">區塊2</div>
+            </div>
+    </div>
         </body>
 </html>
