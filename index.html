@@ -9,103 +9,103 @@
   <title>　Welcome ！</title>
 
   <style>
-     #nav, #main, #footer {
-      color: white;
-    }
+      html {
+          height:100%;
+      }
+
     #header {
-     padding: 30Px;
-      color:White;
+     position:relative;
+      padding: 30Px;
+      color:white;
       width:100%;
       background-color: #444444;
       font-size: 50px;
-      font-weight: bold;
+     color: white;
     }
     #main {
       width: 100%;
       background-color:#003377;
       text-align: center;
       padding: 10px;
+
     }
-    #footer {
-      position: absolute;
-      bottom:0;
-      width:100%;
-      height:100px;
-      text-align:center;
-      background-color: #CC6600;
-      font-size: 30px;
-      line-height:50px;
-      }
       #middle{
           padding:20px;
+          padding-bottom: 100px;
       }
+      #container{
+          position:relative;
+          min-height: 100%;
+          padding-bottom: 50px;
+      }
+    #footer{
+        position:relative;
+        background-color: #FF7744;
+        width: 100%;
+        height:80px;
+        text-align:center;
+        font-size: 40px;
+        font-family: bold;
+    }
    </style>
 
-   <style type="text/css">
-    #B2R{
-        width:200px;
-        height:150px;
-    background: -webkit-linear-gradient(top left, #444444,#BB5500);
-    background: -o-linear-gradient(top left, #444444,#BB5500);
-    background: linear-gradient(to bottom right, #444444,#BB5500);
-    }
-    </style>
-
 </head>
-      <body  >
-
-            <font face="monospace">
-
-        <!--導覽列 -->
-        <nav class="navbar navbar-default">
-
+    <body >
+                <font face="monospace">
+                <!--導覽列 -->
             <div class="container">
-                 <a href="#" class="navbar-brand">Mask</a>
-                 <buttom type="bottun" class="navbar-toggle collapased"
-                 data-toggle="collapse" data-target="#navbar">
-                 <span class="sr-only">導覽按鈕</span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-            </div>
 
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">首頁</a></li>
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                         <a href="#" class="navbar-brand">Mask</a>
+                         <buttom type="bottun" class="navbar-toggle collapased"
+                         data-toggle="collapse" data-target="#navbar">
+                         <span class="sr-only">導覽按鈕</span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                    </div>
 
-                    </ul>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">首頁</a></li>
+
+                            </ul>
+                        </div>
+                </nav>
+
+                 <div id="header">MASK's SPACE</div>
+
+                  <div id="main">
+                  加了圖片 bootstrap 、 < pre >  code < / pre > 4/29  1:33
+                  </div>
+
+                      <div id="middle">
+                              <pre>
+                    #include < iostream >
+
+                    using namespace std;
+
+                    int main(){
+
+                     cout<<"hello world" << endl;
+
+                    }
+                              </pre>
+
+                               <img src= "donut.png" class="img-responsive"  alt="circle" >
+
+                      </div>
+
                 </div>
-        </nav>
 
-         <div id="header">MASK's SPACE</div>
+                    <hr>
+                    <div id="footer">
+                        Still in progress @ 2018
+                    </div>
 
-          <div id="main">
-          加了圖片 bootstrap 、 < pre >  code < / pre > 4/29  1:33
-          </div>
+                </font>
 
-    <div id="middle">
-        <pre>
-            #include < iostream >
-
-            using namespace std;
-            int main(){
-                cout<<"hello world" << endl;
-            }
-        </pre>
-    </div>
-
-          <div class="container">
-              <img src= "donut.png" class="img-responsive"  alt="circle" >
-          </div>
-
-          <div id="footer">
-            <p>
-              Still in progress © 2018
-            </p>
-          </div>
-
-        </font>
-
-      </body>
+    </body>
 
 </html>
